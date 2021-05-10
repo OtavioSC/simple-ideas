@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius Previewer</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    
+</head>
+<body>
+    <div class="assets">
+        <h1 class="title">Border Radius Previewer</h1>
+        <div class="environment">
+            <div id="quadrado" class="shape" onclick="cliqueMe()"></div>
+            <input id="txtBoxTL" class="txtBox topLeft" oninput="changeBorder()" type="text">
+            <input id="txtBoxBL"class="txtBox bottomLeft" oninput="changeBorder()" type="text">
+            <input id="txtBoxTR"class="txtBox topRight" oninput="changeBorder()" type="text">
+            <input id="txtBoxBR"class="txtBox bottomRight" oninput="changeBorder()" type="text">
+
+            <textarea id="borderDataTxt" class="borderDataTxt"></textarea>
+        </div> 
+    </div>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
